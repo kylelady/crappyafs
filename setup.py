@@ -7,6 +7,7 @@ setup(name='crapPyAFS',
         description='PyAFS implemented with fork-and-execs',
         author='Kyle Lady',
         author_email='kylelady@umich.edu',
+        url='https://github.com/kylelady/crappyafs',
         classifiers=['Programming Language :: Python',
-                'Topic :: System :: Filesystems',]
-        py_modules=['crappyafs',])
+                'Topic :: System :: Filesystems',],
+        packages=['afs',],)
